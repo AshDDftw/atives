@@ -1,127 +1,122 @@
 # Atives - Creative Community Platform
 
-A React Native prototype of the Atives platform for creatives, built with Expo and TypeScript.
+A comprehensive React Native prototype of the Atives platform for Indian creatives, built with Expo and TypeScript. This app replicates the real Atives.com experience with modern features for artists, designers, photographers, and creative professionals.
 
-## 🚀 Features
+## 🚀 Complete Feature Set
 
-### Core Screens
-- **Home Feed** - Displays creative posts with images, likes, comments, and tags
-- **Jobs Board** - Job listings with search, filter, and sort functionality
-- **Explore Feed** - Discover creators, portfolios, and resources
-- **Profile Page** - User profile with portfolio, stats, and tabbed content
-- **Onboarding Flow** - 2-step onboarding for new creators
+### 📱 Core Screens (6 Tabs)
+- **🏠 Home Feed** - Creative posts with stories, images, likes, comments, and hashtags
+- **💼 Jobs Board** - Creative job listings with advanced search, filter, and sort
+- **🧭 Explore** - Discover creators, portfolios, and resources with tabbed interface
+- **🎬 Reels** - Short-form videos showcasing art processes and selling artwork
+- **⚡ Discover** - Live creative sessions and challenges with prizes
+- **🔔 Notifications** - Collaboration requests and community interactions
+- **👤 Profile** - Comprehensive user profiles with achievements and portfolio
 
-### Key Functionality
-- ✅ Functional UI & routing with Expo Router
-- ✅ TypeScript for better code structure
-- ✅ Mock data for all content (users, posts, jobs, projects)
-- ✅ Clean, maintainable component structure
-- ✅ Mobile responsiveness and Expo-compatible build
-- ✅ Animations using React Native Reanimated
-- ✅ Dark/Light theme support
+### 🎬 Reels Feature (TikTok/Instagram Style)
+- **Vertical Video Scrolling** - Full-screen immersive video experience
+- **Auto-play Videos** - Smooth playback with tap-to-pause controls
+- **E-commerce Integration** - Direct artwork sales through videos 
+- **Social Interactions** - Like, comment, share, bookmark with animations
+- **Artist Monetization** - Price tags and "Buy Now" buttons for artwork
+- **Process Videos** - Time-lapse painting, digital art, photography tutorials
+- **Create Reel Button** - Floating action button for video creation
+- **Profile Integration** - Video thumbnails grid in user profiles
 
-## 🛠 Tech Stack
+### 🎯 Advanced Features
+- **📖 Stories** - Instagram-style stories for behind-the-scenes content
+- **🔴 Live Streaming** - Real-time creative sessions with viewer counts
+- **🏆 Creative Challenges** - Competitions with cash prizes
+- **🤝 Collaboration System** - Artist partnership requests and matching
+- **🏅 Achievement System** - Gamified badges with rarity levels (Common to Legendary)
+- **🎨 Skill Verification** - Verified skill badges with proficiency levels
+- **💰 Marketplace** - Direct artwork sales and commission requests
+- **📱 Stories Viewer** - Circular avatars with gradient borders for active stories
 
-- **React Native** with Expo SDK 53
-- **TypeScript** for type safety
-- **Expo Router** for file-based navigation
-- **React Native Reanimated** for smooth animations
-- **Expo Vector Icons** for consistent iconography
-- **React Navigation** for advanced navigation patterns
 
-## 📱 Screen Structure
+
 
 ```
-app/
-├── index.tsx                 # Entry point (redirects to onboarding)
-├── _layout.tsx              # Root layout with theme provider
-├── onboarding/              # Onboarding flow
-│   ├── index.tsx           # Welcome screen
-│   ├── step1.tsx           # Creative field selection
-│   └── step2.tsx           # Goals and bio setup
-└── (tabs)/                  # Main app tabs
-    ├── _layout.tsx         # Tab navigation layout
-    ├── index.tsx           # Home feed
-    ├── jobs.tsx            # Jobs board
-    ├── explore.tsx         # Explore creators
-    └── profile.tsx         # User profile
-```
 
-## 🎨 Components
+## 🎨 Advanced Components
 
-- **PostCard** - Animated post display with user info, content, and interactions
-- **JobCard** - Job listing with company info, skills, and application details
-- **UserCard** - Creator profile card for discovery
-- **ProjectCard** - Portfolio project showcase
-- **AnimatedCard** - Reusable animation wrapper with entrance effects
+### Video & Media
+- **ReelCard** - Full-screen video player with e-commerce integration
+- **LiveStreamCard** - Real-time streaming with animated indicators
+- **StoryViewer** - Horizontal story scrolling with gradient borders
+- **VideoThumbnail** - Grid layout for profile video collections
 
-## 📊 Mock Data
+### Social & Commerce
+- **PostCard** - Animated posts with staggered entrance effects
+- **CollaborationRequest** - Artist partnership proposals
+- **ChallengeCard** - Competition cards with prizes and countdowns
+- **AchievementBadge** - Gamified badges with unlock animations
 
-The app uses comprehensive mock data including:
-- **Users** - Creative professionals with skills, locations, and verification status
-- **Posts** - Creative content with images, engagement metrics, and tags
-- **Jobs** - Opportunities across different creative fields and employment types
-- **Projects** - Portfolio pieces with descriptions and performance metrics
+### Professional
+- **JobCard** - Detailed job listings with skill matching
+- **UserCard** - Creator discovery with skill verification
+- **ProjectCard** - Portfolio showcase with engagement metrics
+- **SkillBadge** - Verified skills with proficiency levels
 
-## 🎯 Onboarding Flow
+### Interactive Elements
+- **AnimatedCard** - Reusable animation wrapper with spring physics
+- **FloatingActionButton** - Context-aware creation buttons
+- **CreateReelButton** - Video creation with press feedback
+- **LoadingSpinner** - Smooth loading states
 
-1. **Welcome Screen** - App introduction with key features
-2. **Step 1** - Creative field selection (Design, Photography, Development, etc.)
-3. **Step 2** - Goal setting and optional bio creation
 
-## ✨ Animations & Interactions
+### Creative Content
+- **Posts** - Digital paintings, oil portraits, wedding photography, mixed media
+- **Reels** - Process videos, tutorials, time-lapses, behind-the-scenes
+- **Jobs** - Gaming studio artists, wedding photographers, oil painting commissions
+- **Projects** - Heritage paintings, wedding portfolios, digital art series
 
-- **Staggered entrance animations** for feed items
-- **Press feedback** with scale animations
-- **Smooth transitions** between screens
-- **Pull-to-refresh** functionality
-- **Micro-interactions** throughout the app
+
+## 🎯 Enhanced Onboarding
+
+### Creative Fields (12 Options)
+Painting, Photography, Digital Art, Illustration, Sculpture, Crafts & Handmade, Graphic Design, Writing, Music, Dance, Comedy, Artisan Work
+
+### Goals (8 Options)
+Showcase creations, Connect with artists, Find creative work, Sell artwork, Learn techniques, Find collaborators, Get inspired, Get commissions
+
+## ✨ Advanced Animations & Interactions
+
+- **Video Playback** - Smooth auto-play with pause controls
+- **Heart Animations** - Spring-based like button feedback
+- **Staggered Entrance** - Sequential card animations with delays
+- **Pull-to-Refresh** - Native refresh controls
+- **Achievement Unlocks** - Scale animations for badge reveals
+- **Live Indicators** - Pulsing animations for streaming status
+- **Story Borders** - Gradient animations for active stories
+- **Press Feedback** - Scale animations for all interactive elements
 
 ## 🚀 Getting Started
 
-1. Install dependencies:
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the development server:
+2. **Start development server:**
    ```bash
    npx expo start
    ```
 
-3. Open the app in:
-   - Expo Go app on your phone
-   - iOS Simulator
-   - Android Emulator
-   - Web browser
+3. **Run on device:**
+   - Scan QR code with Expo Go app
+   - iOS Simulator: Press `i`
+   - Android Emulator: Press `a`
+   - Web browser: Press `w`
 
-## 🎨 Design Principles
+## 🎨 Design System
 
-- **Clean & Modern** - Minimalist design with focus on content
-- **Accessible** - High contrast ratios and readable typography
-- **Responsive** - Adapts to different screen sizes
-- **Consistent** - Unified color scheme and component patterns
-- **Performant** - Optimized animations and efficient rendering
+- **Color Scheme** - Atives blue (#007AFF) with dark/light theme support
+- **Typography** - System fonts with proper hierarchy
+- **Spacing** - Consistent 8px grid system
+- **Animations** - 60fps with React Native Reanimated
+- **Accessibility** - High contrast ratios and screen reader support
+- **Responsive** - Adapts to all screen sizes and orientations
 
-## 🔮 Future Enhancements
 
-- Real-time messaging system
-- Advanced portfolio builder
-- Job application tracking
-- Social features (following, messaging)
-- Push notifications
-- Offline support
-- Advanced search and filtering
-- Integration with creative tools
 
-## 📝 Notes
-
-This is a prototype built for demonstration purposes. In a production environment, you would need to:
-- Implement proper authentication
-- Connect to a real backend API
-- Add proper error handling
-- Implement data persistence
-- Add comprehensive testing
-- Optimize for performance at scale
-
-Built with ❤️ for the creative community.
