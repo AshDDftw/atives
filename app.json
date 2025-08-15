@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "atives",
+    "name": "Atives - Creative Community",
     "slug": "atives",
     "version": "1.0.0",
+    "description": "A platform for creatives to showcase work, find opportunities, and connect with fellow creators",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "atives",
